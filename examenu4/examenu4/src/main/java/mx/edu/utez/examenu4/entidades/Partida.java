@@ -11,7 +11,7 @@ public class Partida {
     private LocalDateTime fecha;
     @Enumerated(EnumType.STRING)
     private EstadoPartida estado;
-    private double apuesta; // Atributo necesario para calcular premios
+    private double apuesta; 
 
     @ManyToOne
     private Jugador jugador;
